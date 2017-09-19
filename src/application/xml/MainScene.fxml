@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="237.0" prefWidth="209.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <ComboBox fx:id="serveCbx" layoutX="22.0" layoutY="34.0" prefHeight="23.0" prefWidth="170.0" />
+      <VBox alignment="CENTER_RIGHT" layoutX="14.0" layoutY="82.0" prefHeight="139.0" prefWidth="69.0">
+         <children>
+            <Label prefHeight="35.0" text="ip：" />
+            <Label prefHeight="35.0" text="port：" />
+            <Label prefHeight="35.0" text="passwd：" />
+            <Label prefHeight="35.0" text="method：" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" layoutX="95.0" layoutY="71.0" prefHeight="151.0" prefWidth="95.0">
+         <children>
+            <TextField fx:id="ipText" prefHeight="20.0" prefWidth="50.0">
+               <VBox.margin>
+                  <Insets top="12.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="portText" prefHeight="20.0" prefWidth="50.0">
+               <VBox.margin>
+                  <Insets top="12.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="passwdText" prefHeight="20.0" prefWidth="50.0">
+               <VBox.margin>
+                  <Insets top="12.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="methodText" prefHeight="20.0" prefWidth="50.0">
+               <VBox.margin>
+                  <Insets top="12.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
